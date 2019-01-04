@@ -1,17 +1,18 @@
-def division(num1, num2)
- 
+def division(num1 = 36, num2 = 6)
+ num1 \ num2
 end
 
 def assign_variable(value)
-  
+  value = "bob"
 end
 
-def argue
-  
+def argue(x)
+  return x
 end
 
-def greeting
-
+def greeting(greeting = "Hi there", name)
+  greeting
+  name = "name"
 end
 
 def return_a_value
